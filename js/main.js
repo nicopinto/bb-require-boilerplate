@@ -4,6 +4,8 @@ require.config({
     underscore: 'libs/underscore/underscore-1.5.1.min',
     backbone: 'libs/backbone/backbone-1.0.0.min'
   },
+  //prevent cache in all the files
+  urlArgs: "bust=" + (new Date()).getTime(),
   shim: {
     underscore: {
       exports: '_'

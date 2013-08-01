@@ -2,7 +2,7 @@ define([
   'jquery',
   'underscore',
   'backbone',
-  'text!/templates/list.html?' + (new Date()).getTime()
+  'text!/templates/list.html'
 ], function ($, _, Backbone, listTemplate) {
     
   var ListView = Backbone.View.extend({
