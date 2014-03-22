@@ -1,8 +1,8 @@
 require.config({
   paths: {
-    jquery: 'libs/jquery/jquery-1.10.2.min',
-    underscore: 'libs/underscore/underscore-1.5.1.min',
-    backbone: 'libs/backbone/backbone-1.0.0.min'
+    jquery: 'libs/jquery/jquery-2.1.0.min',
+    underscore: 'libs/underscore/underscore-1.6.0.min',
+    backbone: 'libs/backbone/backbone-1.1.2.min'
   },
   //prevent cache in all the files
   urlArgs: "bust=" + (new Date()).getTime(),
